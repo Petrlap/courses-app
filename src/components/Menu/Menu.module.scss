@@ -1,0 +1,30 @@
+.menu {
+  width: 264px;
+  border-radius: 18px;
+  border: 1px solid #cfcfe4;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  &__button {
+    width: 240px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+    text-align: left;
+    color: #39414b;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      color: #ffffff;
+      background: #5fbf77;
+    }
+  }
+}
